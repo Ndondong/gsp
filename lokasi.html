@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokasi Cabang - GIMBUL SUPPLIER GROUP (GSP)</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #28a745;
+            font-weight: bold;
+        }
+        .hero {
+            background: linear-gradient(135deg, #ff8c00, #ff8c00);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 2.5rem;
+            font-weight: bold;
+        }
+        .hero p {
+            font-size: 1.1rem;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #ff8c00;
+        }
+        .location-card {
+            border: none;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+            margin-bottom: 30px;
+        }
+        .location-card:hover {
+            transform: translateY(-10px);
+        }
+        .map-container {
+            height: 300px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .contact {
+            background-color: #343a40;
+            color: white;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .footer {
+            background-color: #ff8c00;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .btn-custom {
+            background-color: #ff8c00;
+            border-color: #ff8c00;
+            color: white;
+        }
+        .btn-custom:hover {
+            background-color: #e67e22;
+            border-color: #e67e22;
+        }
+        .accent-green {
+            color: #28a745 !important;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="logo.png" alt="logo GSP" style="width:100px; height:auto; border-radius:8px;"> GIMBUL SUPPLIER GROUP (GSP)</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Kami</a></li>
+                    <li class="nav-item"><a class="nav-link" href="layanan.html">Layanan</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="lokasi.html">Lokasi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeri.html">Galeri</a></li>
+                    <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Lokasi Cabang Kami</h1>
+            <p>Temukan cabang GSP terdekat untuk mendapatkan produk segar dan layanan terbaik.</p>
+        </div>
+    </section>
+
+    <!-- Locations Detail Section -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title">Detail Lokasi</h2>
+            <div class="row">
+                <!-- Cabang 1: Jl. Sirnoboyo -->
+                <div class="col-md-6 mb-4">
+                    <div class="location-card card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-map-marker-alt accent-green"></i> Cabang 1: Jl. Sirnoboyo</h5>
+                            <p class="card-text">Lokasi utama untuk berbagai produk kami. Alamat lengkap: Jl. Sirnoboyo, Pacitan. Jam operasional: 04.00 - 21.00 WIB.</p>
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d442.86137526772603!2d111.12511857315528!3d-8.207542964685338!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7961b30d95c2c7%3A0x47c5b2a890d83061!2sKios%20Gimbul!5e1!3m2!1sid!2sid!4v1762834973351!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <a href="https://maps.app.goo.gl/gyTUTakm5xJ1prAX7" target="_blank" class="btn btn-custom mt-3"><i class="fas fa-external-link-alt"></i> Buka di Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cabang 2: Tanjungpuro Ngadirojo -->
+                <div class="col-md-6 mb-4">
+                    <div class="location-card card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-map-marker-alt accent-green"></i> Cabang 2: Tanjungpuro Ngadirojo</h5>
+                            <p class="card-text">Cabang untuk akses mudah ke produk segar. Alamat lengkap: Tanjungpuro Ngadirojo, Pacitan. Jam operasional: 04.00 - 21.00 WIB.</p>
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1876.689344828146!2d111.313005!3d-8.2268685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e79695b418b033d%3A0x3fba679c868175d1!2sToko%20gimbul%20sembako%20dan%20sayur%20segar!5e1!3m2!1sid!2sid!4v1762834933965!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <a href="https://maps.app.goo.gl/jJ23XMWhzB3ezfqZ7" target="_blank" class="btn btn-custom mt-3"><i class="fas fa-external-link-alt"></i> Buka di Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cabang 3: Menadi Pacitan -->
+                <div class="col-md-6 mb-4">
+                    <div class="location-card card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-map-marker-alt accent-green"></i> Cabang 3: Menadi Pacitan</h5>
+                            <p class="card-text">Cabang strategis untuk distribusi produk. Menadi Pacitan. Alamat lengkap: Menadi Pacitan, Depan PKU Muhammadiyah. Jam operasional: 04.00 - 21.00 WIB.</p>
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3753.655675647974!2d111.118611!3d-8.197572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTEnNTEuMyJTIDExMcKwMDcnMDcuMCJF!5e1!3m2!1sid!2sid!4v1762834896087!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <a href="https://maps.app.goo.gl/dfWwaNpigXcqgzQT6" target="_blank" class="btn btn-custom mt-3"><i class="fas fa-external-link-alt"></i> Buka di Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cabang 4: Punung -->
+                <div class="col-md-6 mb-4">
+                    <div class="location-card card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-map-marker-alt accent-green"></i> Cabang 4: Depan Ampel Muda Ploso</h5>
+                            <p class="card-text">Depan Kantor Kecamatan Punung. Alamat lengkap: Depan Ampel Muda Ploso, Pacitan. Jam operasional: 04.00 - 21.00 WIB.</p>
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120108.00941690487!2d110.98576381823476!3d-8.227226982544822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7bd976c6c50ff1%3A0x14f35b87a01f71df!2sKIOS%20SAYURAN%20SEGAR%20GIMBUL%204!5e1!3m2!1sid!2sid!4v1762834809915!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <a href="https://maps.app.goo.gl/4tm2N3JXxBvYYRsM9" target="_blank" class="btn btn-custom mt-3"><i class="fas fa-external-link-alt"></i> Buka di Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Cabang 5: Ploso -->
+                <div class="col-md-6 mb-4">
+                    <div class="location-card card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-map-marker-alt accent-green"></i> Cabang 5: Jl. Raya Ngadirojo</h5>
+                            <p class="card-text">Cabang terbaru untuk pelayanan maksimal. Alamat lengkap: Jl. Raya Ngadirojo, Pacitan. Jam operasional: 04.00 - 21.00 WIB.</p>
+                            <div class="map-container">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3753.578794957513!2d111.094608!3d-8.205714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTInMjAuNiJTIDExMcKwMDUnNDAuNiJF!5e1!3m2!1sid!2sid!4v1762834676602!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <a href="https://maps.app.goo.gl/ryFGSYu1gNrmYFcd6" target="_blank" class="btn btn-custom mt-3"><i class="fas fa-external-link-alt"></i> Buka di Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Lesehan Gimbul: Ngemplak Sirnoboyo -->
+                <div class="col-md-6 mb-4">
+                    <div class="location-card card">
+                        <div class="card-body">
+                            <h5 class="card-title"><i class="fas fa-utensils accent-green"></i> Lesehan Gimbul: Kauman, Arjowinangun</h5>
+                            <p class="card-text">Tempat menu siap saji favorit. Alamat lengkap: Samping Alfamart, Kauman, Arjowinangun, Pacitan. Jam operasional: 07.00 - 21.00 WIB.</p>
+                            <div class="map-container">
+                                <iframe src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.60257620864144!2d111.11611635206296!3d-8.199103599170513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7961007153364b%3A0x2d5eb6c41b1920e1!2sWarung%20Makan%20Lesehan%20Gimbul!5e1!3m2!1sid!2sid!4v1762834611643!5m2!1sid!2sid" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
+                            <a href="https://maps.app.goo.gl/Ys4uxXy2631DsWKR7" target="_blank" class="btn btn-custom mt-3"><i class="fas fa-external-link-alt"></i> Buka di Google Maps</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan tentang lokasi atau produk, hubungi kami di:</p>
+            <p><i class="fas fa-phone accent-green"></i> <strong>085259662100</strong></p>
+            <p>Info pemesanan bisa melalui WhatsApp. Klik tombol di bawah untuk langsung chat!</p>
+            <a href="https://wa.me/6285259662100" class="btn btn-custom btn-lg"><i class="fab fa-whatsapp"></i> Pesan via WhatsApp</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2023 GIMBUL SUPPLIER GROUP (GSP). Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
